@@ -6,6 +6,10 @@ export default {
 		extend: {
 			fontFamily: {
 				cheap: '"Cheap Pine",sans-serif'
+			},
+			screens: {
+				portrait: { raw: '(orientation: portrait)' },
+				landscape: { raw: '(orientation: landscape)' }
 			}
 		}
 	},

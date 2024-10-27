@@ -9,10 +9,12 @@
 	onMount(() => {
 		const timer1 = setTimeout(() => {
 			active = true; // Activate the animation
-			const timer2 = setTimeout(() => {
-				dispatch('visited'); // Trigger event to mark splash as complete
-			}, 5000); // Adjust this to match your animation duration
-		}, 1000); // Delay before activating animation
+			// Adjust this to match your animation duration
+		}, 1000);
+
+		const timer2 = setTimeout(() => {
+			dispatch('visited'); // Trigger event to mark splash as complete
+		}, 5000); // Delay before activating animation
 		// Cleanup timers when the component unmounts
 		return () => {
 			clearTimeout(timer1);
