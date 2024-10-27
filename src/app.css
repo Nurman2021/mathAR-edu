@@ -1,0 +1,12 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@font-face {
+	font-family: 'Cheap Pine';
+	src: url(/fonts/CheapPine.otf);
+}
+
+body {
+	background-color: #f3f4f6;
+}
