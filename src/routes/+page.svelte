@@ -4,25 +4,34 @@
 <div class="container">
 	<main class="menu-container h-screen rounded-lg flex items-center px-6">
 		<div class="grid grid-cols-2 grid-rows-3 gap-4 w-full">
-			<div class="h-32 w-full flex items-center justify-center shadow-md bg-[#3D3C42] rounded-3xl">
-				<img src="/images/demo-icon.png" alt="demo" class="h-full" />
+			<a
+				href="/demo"
+				class="py-2 w-full flex items-center justify-center shadow-md bg-[#3D3C42] rounded-3xl hover:opacity-80"
+			>
+				<img src="/images/demo-icon.png" alt="demo" width="120" />
 				<p class="text-white font-bold text-xl">DEMONSTRASI</p>
-			</div>
+			</a>
 			<a
 				href="/materi"
-				class="h-32 w-full flex items-center justify-center shadow-md bg-blue-700 rounded-3xl hover:animate-bounce"
+				class="py-2 w-full flex items-center justify-center shadow-md bg-blue-700 rounded-3xl hover:opacity-80"
 			>
-				<img src="/images/materi-icon.png" alt="demo" class="h-full" />
+				<img src="/images/materi-icon.png" alt="demo" width="120" />
 				<p class="text-white font-bold text-xl">MATERI</p>
 			</a>
-			<div class="h-32 w-full flex items-center justify-center shadow-md bg-blue-700 rounded-3xl">
-				<img src="/images/info-icon.png" alt="demo" class="h-full" />
+			<a
+				href="/informasi"
+				class="py-2 w-full flex items-center justify-center shadow-md bg-blue-700 rounded-3xl hover:opacity-80"
+			>
+				<img src="/images/info-icon.png" alt="demo" width="120" />
 				<p class="text-white font-bold text-xl">INFORMASI</p>
-			</div>
-			<div class="h-32 w-full flex items-center justify-center shadow-md bg-[#FEBB0D] rounded-3xl">
-				<img src="/images/kredit-icon.png" alt="demo" class="h-full" />
+			</a>
+			<a
+				href="/kredit"
+				class="py-2 w-full flex items-center justify-center shadow-md bg-[#FEBB0D] rounded-3xl hover:opacity-80"
+			>
+				<img src="/images/kredit-icon.png" alt="demo" width="120" />
 				<p class="text-white font-bold text-xl">KREDIT</p>
-			</div>
+			</a>
 			<div
 				class="h-20 w-full flex items-center justify-center shadow-md bg-[#D7513D] rounded-3xl col-span-2"
 			>
