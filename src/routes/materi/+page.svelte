@@ -1,29 +1,11 @@
 <script>
 	import Swiper from '../../lib/components/Swiper.svelte';
+	import { ArrowLeft } from 'lucide-svelte';
 </script>
 
 <div class="materi-container px-6 relative">
-	<!-- <img
-		src="/images/asset-materi-globe.png"
-		alt="globe"
-		width="120"
-		class="fixed -left-4 rotate-45"
-	/> -->
-	<!-- svelte-ignore a11y_consider_explicit_label -->
-	<a href="/" class="cursor-pointer">
-		<div class="bg-sky-500 rounded-r-full fixed left-0 mt-4 px-6 text-white">
-			<svg
-				xmlns="http://www.w3.org/2000/svg"
-				width="50"
-				height="50"
-				viewBox="0 0 24 24"
-				fill="none"
-				stroke="currentColor"
-				stroke-width="2"
-				stroke-linecap="round"
-				stroke-linejoin="round"><path d="m12 19-7-7 7-7" /><path d="M19 12H5" /></svg
-			>
-		</div>
+	<a href="/" class="bg-sky-500 rounded-r-full fixed left-0 mt-4 px-6 text-white">
+		<ArrowLeft size={48} />
 	</a>
 
 	<img

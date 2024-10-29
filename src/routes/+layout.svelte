@@ -3,6 +3,8 @@
 
 	import Splash from '../lib/components/Splash.svelte';
 	import { onMount } from 'svelte';
+	import { fly } from 'svelte/transition';
+	export let data;
 
 	let hasVisited = false;
 
@@ -43,7 +45,11 @@
 {#if !hasVisited}
 	<Splash on:visited={setHasVisited} />
 {:else}
-	<slot />
+	{#key data.url}
+		<div in:fly={{ x: -50, duration: 400, delay: 300 }}>
+			<slot />
+		</div>
+	{/key}
 {/if}
 
 <style>
