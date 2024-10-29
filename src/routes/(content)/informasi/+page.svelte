@@ -11,8 +11,8 @@
 				lebih praktis dan intuitif.
 			</p>
 			<p class="text-gray-700">
-				Dikembangkan sebagai bagian dari tugas akhir mata kuliah Matematika Dasar di Universitas
-				Muhammadiyah (Unismuh) Makassar, mathAR Balance bertujuan untuk menggabungkan teknologi
+				Dikembangkan sebagai bagian dari tugas akhir mata kuliah Media Pembelajaran Manipulatif di
+				Universitas Negeri Makassar (UNM), mathAR Balance bertujuan untuk menggabungkan teknologi
 				modern dengan pendidikan matematika. Dengan tampilan yang responsif dan mudah digunakan,
 				aplikasi ini diharapkan dapat meningkatkan minat dan pemahaman siswa dalam mempelajari
 				persamaan linear secara interaktif.

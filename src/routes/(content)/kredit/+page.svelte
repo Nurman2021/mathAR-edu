@@ -4,8 +4,9 @@
 			<h1 class="text-2xl font-bold text-center text-green-600 mb-6">Our Team</h1>
 			<p class="text-gray-700 mb-4">
 				mathAR Balance adalah hasil kolaborasi dari tim kreatif dan berdedikasi dalam tugas akhir
-				mata kuliah Matematika Dasar di Unismuh Makassar. Terima kasih kepada semua anggota tim yang
-				telah berkontribusi dengan ide, tenaga, dan kreativitas mereka.
+				mata kuliah Media Pembelajaran Manipulatif di Universitas Negeri Makassar. Terima kasih
+				kepada semua anggota tim yang telah berkontribusi dengan ide, tenaga, dan kreativitas
+				mereka.
 			</p>
 			<ul class="list-disc list-inside text-gray-700">
 				<li class="mb-2"><strong>Nuradya Sukirman</strong></li>

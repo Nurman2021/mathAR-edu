@@ -32,14 +32,25 @@
 	</SwiperSlide>
 	<SwiperSlide>
 		<div class="container">
-			<h1 class="text-center font-semibold text-4xl">MATERI</h1>
-			<div class="grid grid-cols-2 grid-rows-1 justify-center items-center">
+			<h1 class="text-center font-semibold text-4xl">PENGERTIAN</h1>
+			<div class="grid grid-cols-3 grid-rows-1 justify-center items-center">
 				<img src="/images/hero.png" alt="materi" width="350" />
-				<div class="bg-gray-200 rounded-2xl py-4 px-8">
+				<div class="bg-gray-200 rounded-2xl py-4 px-8 col-span-2">
 					<p class="text-[#193f63] text-lg">
-						<strong>Persamaan linier satu variabel</strong> adalah suatu kalimat terbuka yang
-						menggunakan tanda sama dengan (=) memuat satu variabel dan berpangkat satu Bentuk umum
-						Persamaan Linear Satu Variabel adalah <strong>ax + b = 0, a ≠ 0, a, b∈R.</strong>
+						<strong>Persamaan linear satu variabel</strong> adalah kalimat terbuka yang dihubungkan tanda
+						sama dengan (=) dan hanya mempunyai satu variabel berpangkat 1. Contohnya : 1. x + 3 = 7
+						2. 3a + 4 = 1 3. r – 6 = 10 Untuk memahami persamaan linear satu variabel, terdapat elemen-elemen
+						yang perlu kita pahami yaitu tentang pernyataan, kalimat terbuka, variabel, dan konstanta.
+					</p>
+					<p class="text-[#193f63] text-lg">
+						<strong>Kalimat terbuka</strong> adalah kalimat yang belum dapat diketahui nilai
+						kebenarannya. <strong>Variabel (peubah)</strong> adalah lambang (simbol) pada kalimat terbuka
+						yang dapat diganti oleh sembarang anggota himpunan yang telah ditentukan.
+					</p>
+					<p class="text-[#193f63] text-lg">
+						<strong>Konstanta</strong> adalah lambang yang menyatakan suatu bilangan tertentu.
+						<strong>Koefisien</strong> adalah bilangan yang menyatakan jumlah suatu variabel, sehingga
+						diletakkan di depan variabel.
 					</p>
 				</div>
 			</div>
@@ -52,12 +63,12 @@
 				<img src="/images/persamaan-linear.png" alt="bentuk umum" />
 				<div class="bg-gray-200 rounded-2xl py-4 px-8">
 					<p class="text-[#193f63] text-lg">
-						Bentuk umum Persamaan Linear Satu Variabel adalah ax + b = 0, a ≠ 0, a, b∈R.
+						Bentuk umum Persamaan Linear Satu Variabel adalah <i>ax + b = 0, a ≠ 0, a, b∈R.</i>
 					</p>
 					<p class="text-[#193f63] text-lg">
-						Keterangan: x disebut variabel atau peubah a disebut koefisien dari x b disebut
-						konstanta ax + b terletak di ruas kiri 0 terletak pada ruas kanan ruas kiri ruas kanan
-						dipisahkan oleh tanda ‘’=’’.
+						<strong>Keterangan:</strong> <br /> x disebut variabel atau peubah a disebut koefisien dari
+						x b disebut konstanta ax + b terletak di ruas kiri 0 terletak pada ruas kanan ruas kiri ruas
+						kanan dipisahkan oleh tanda ‘’=’’.
 					</p>
 				</div>
 			</div>
@@ -98,36 +109,6 @@
 				<div>4</div>
 				<div>5</div>
 				<div>6</div>
-			</div>
-		</div>
-	</SwiperSlide>
-	<SwiperSlide>
-		<div class="container">
-			<h1 class="text-center font-semibold text-4xl">METODE PENYELESAIAN</h1>
-			<div class="bg-gray-200 rounded-2xl py-4 px-8">
-				<p>
-					Menggunakan Sifat-sifat Persamaan Menambah, mengurangi, mengali, membagi ruas kanan dan
-					kiri dengan bilangan atau bentuk aljabar yang sama. Contoh : Penyelesaian dari x - 2 = 17
-					adalah...
-				</p>
-				<ol class="text-[#193f63] text-lg">
-					<li>=> x - 2 = 17</li>
-					<li>=> x - 2 + 2 = 17 + 2</li>
-					<li>=> x = 19</li>
-					<li>Jadi, penyelesaiannya adalah x = 19</li>
-				</ol>
-			</div>
-		</div>
-	</SwiperSlide>
-	<SwiperSlide>
-		<div class="container">
-			<h1 class="text-center font-semibold text-4xl">LANGKAH PENYELESAIAN MASALAH PLSV</h1>
-			<div class="bg-gray-200 rounded-2xl py-4 px-8">
-				<ol class="text-[#193f63] text-lg list-decimal">
-					<li>Memisalkan yang belum diketahui dengan variabel (x atau yang lainnya)</li>
-					<li>Menyusun persamaan berdasarkan informasi yang diberikan menjadi model matematika</li>
-					<li>Menyelesaikan persamaan tersebut</li>
-				</ol>
 			</div>
 		</div>
 	</SwiperSlide>
