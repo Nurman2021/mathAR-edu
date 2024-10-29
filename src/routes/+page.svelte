@@ -1,4 +1,18 @@
 <script>
+	function closeApp() {
+		if (confirm('Anda yakin ingin menutup aplikasi ini?')) {
+			// window.open('/', '_self');
+			// window.close();
+			window.open(``, `_blank`, ``);
+			window.close();
+		}
+	}
+
+	function close_window() {
+		if (confirm('Close Window?')) {
+			close();
+		}
+	}
 </script>
 
 <!-- <div class="container"> -->
@@ -32,11 +46,12 @@
 			<img src="/images/kredit-icon.png" alt="demo" width="120" />
 			<p class="text-white font-bold text-xl">KREDIT</p>
 		</a>
-		<div
+		<button
+			on:click={closeApp}
 			class="h-20 w-full flex items-center justify-center shadow-md bg-[#D7513D] rounded-3xl col-span-2"
 		>
 			<p class="text-white font-bold text-3xl">EXIT</p>
-		</div>
+		</button>
 	</div>
 </main>
 
