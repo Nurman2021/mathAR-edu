@@ -65,11 +65,19 @@
 					<p class="text-[#193f63] text-lg">
 						Bentuk umum Persamaan Linear Satu Variabel adalah <i>ax + b = 0, a ≠ 0, a, b∈R.</i>
 					</p>
-					<p class="text-[#193f63] text-lg">
-						<strong>Keterangan:</strong> <br /> x disebut variabel atau peubah a disebut koefisien dari
-						x b disebut konstanta ax + b terletak di ruas kiri 0 terletak pada ruas kanan ruas kiri ruas
-						kanan dipisahkan oleh tanda ‘’=’’.
-					</p>
+					<div class="text-[#193f63] text-lg">
+						<strong>Keterangan:</strong>
+						<ul class="list-disc list-inside">
+							<li><strong>x</strong> disebut variabel atau peubah</li>
+							<li><strong>a</strong> disebut koefisien dari <strong>x</strong></li>
+							<li><strong>b</strong> disebut konstanta</li>
+						</ul>
+
+						<p>
+							<i>ax + b</i> terletak di ruas kiri 0 terletak pada ruas kanan ruas kiri ruas kanan dipisahkan
+							oleh tanda ‘’=’’.
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>
