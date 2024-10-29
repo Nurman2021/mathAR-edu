@@ -3,7 +3,7 @@
 </script>
 
 <div class="materi-container px-6 relative">
-	<a href="/" class="bg-sky-500 rounded-r-full fixed left-0 mt-4 px-6 text-white">
+	<a href="/" class="bg-sky-500 rounded-r-full fixed left-0 mt-4 px-6 text-white z-10">
 		<ArrowLeft size={48} />
 	</a>
 

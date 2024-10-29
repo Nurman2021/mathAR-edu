@@ -3,6 +3,7 @@
 	import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 
 	import { Swiper, SwiperSlide } from 'swiper/svelte';
+	import { Box } from 'lucide-svelte';
 
 	// Import Swiper styles
 	import 'swiper/css';
@@ -32,28 +33,33 @@
 	<SwiperSlide>
 		<div class="container">
 			<h1 class="text-center font-semibold text-4xl">MATERI</h1>
-			<div class="bg-gray-200 rounded-2xl py-4 px-8">
-				<p class="text-[#193f63] text-lg">
-					Persamaan linier satu variabel adalah suatu kalimat terbuka yang menggunakan tanda sama
-					dengan (=) memuat satu variabel dan berpangkat satu Bentuk umum Persamaan Linear Satu
-					Variabel adalah ax + b = 0, a ≠ 0, a, b∈R.
-				</p>
+			<div class="grid grid-cols-2 grid-rows-1 justify-center items-center">
+				<img src="/images/hero.png" alt="materi" width="350" />
+				<div class="bg-gray-200 rounded-2xl py-4 px-8">
+					<p class="text-[#193f63] text-lg">
+						<strong>Persamaan linier satu variabel</strong> adalah suatu kalimat terbuka yang
+						menggunakan tanda sama dengan (=) memuat satu variabel dan berpangkat satu Bentuk umum
+						Persamaan Linear Satu Variabel adalah <strong>ax + b = 0, a ≠ 0, a, b∈R.</strong>
+					</p>
+				</div>
 			</div>
 		</div>
 	</SwiperSlide>
 	<SwiperSlide>
 		<div class="container">
 			<h1 class="text-center font-semibold text-4xl">BENTUK UMUM</h1>
-			<div class="bg-gray-200 rounded-2xl py-4 px-8">
-				<img src="" alt="bentuk umum" />
-				<p class="text-[#193f63] text-lg">
-					Bentuk umum Persamaan Linear Satu Variabel adalah ax + b = 0, a ≠ 0, a, b∈R.
-				</p>
-				<p class="text-[#193f63] text-lg">
-					Keterangan: x disebut variabel atau peubah a disebut koefisien dari x b disebut konstanta
-					ax + b terletak di ruas kiri 0 terletak pada ruas kanan ruas kiri ruas kanan dipisahkan
-					oleh tanda ‘’=’’.
-				</p>
+			<div class="grid grid-cols-2 grid-rows-1 justify-center items-center">
+				<img src="/images/persamaan-linear.png" alt="bentuk umum" />
+				<div class="bg-gray-200 rounded-2xl py-4 px-8">
+					<p class="text-[#193f63] text-lg">
+						Bentuk umum Persamaan Linear Satu Variabel adalah ax + b = 0, a ≠ 0, a, b∈R.
+					</p>
+					<p class="text-[#193f63] text-lg">
+						Keterangan: x disebut variabel atau peubah a disebut koefisien dari x b disebut
+						konstanta ax + b terletak di ruas kiri 0 terletak pada ruas kanan ruas kiri ruas kanan
+						dipisahkan oleh tanda ‘’=’’.
+					</p>
+				</div>
 			</div>
 		</div>
 	</SwiperSlide>
@@ -72,7 +78,8 @@
 	</SwiperSlide>
 	<SwiperSlide>
 		<div class="h-screen flex flex-col items-center justify-center">
-			<section class="menu-container p-20 rounded-xl">
+			<section class="menu-container p-20 rounded-xl flex items-center">
+				<img src="/images/hero-quiz.png" alt="quiz" width="250" />
 				<h1 class="text-center text-6xl font-bold">QUIZ</h1>
 			</section>
 		</div>
@@ -137,6 +144,21 @@
 					tersebut terdapat 2 rubrik sehingga timbangan pada posisi yang setimbang. Berapakah daya
 					tampung kantong tersebut?
 				</p>
+				<strong class="text-xl">Next Slide 👉</strong>
+			</div>
+		</div>
+	</SwiperSlide>
+	<SwiperSlide>
+		<div class="container">
+			<h1 class="text-center font-semibold text-4xl">KLIK ICON DIBAWAH 👇</h1>
+			<div class="flex mx-auto">
+				<img src="/images/hero-demo.png" alt="demo" width="400" />
+				<a
+					href="/demo"
+					class=" h-28 w-28 flex items-center justify-center border border-black rounded-xl float-right hover:bg-yellow-300 hover:text-white"
+				>
+					<Box size={48} />
+				</a>
 			</div>
 		</div>
 	</SwiperSlide>
