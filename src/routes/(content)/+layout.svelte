@@ -1,5 +1,4 @@
 <script>
-	import Swiper from '../../lib/components/Swiper.svelte';
 	import { ArrowLeft } from 'lucide-svelte';
 </script>
 
@@ -21,7 +20,7 @@
 		width="120"
 		class="fixed -right-4 bottom-0"
 	/>
-	<Swiper />
+	<slot />
 </div>
 
 <style>
@@ -29,5 +28,7 @@
 		background-image: url('/images/bg-materi.png');
 		background-position: center;
 		background-size: cover;
+		height: 100vh;
+		width: 100vw;
 	}
 </style>
