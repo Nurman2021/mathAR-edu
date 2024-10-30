@@ -1,4 +1,8 @@
 <script>
+	import { onMount, onDestroy } from 'svelte';
+	import { Volume2, VolumeX } from 'lucide-svelte';
+	import { get } from 'svelte/store';
+	import { isPlaying, initializeAudio, toggleAudio } from '$lib/audioStore';
 	function closeApp() {
 		if (confirm('Anda yakin ingin menutup aplikasi ini?')) {
 			// window.open('/', '_self');
@@ -8,10 +12,20 @@
 		}
 	}
 
-	function close_window() {
-		if (confirm('Close Window?')) {
-			close();
+	onMount(() => {
+		const audio = initializeAudio(); // Inisialisasi audio (hanya sekali)
+
+		// Jika sebelumnya audio di-play, lanjutkan pemutaran
+		if (localStorage.getItem('musicPlaying') === 'true') {
+			audio.play();
 		}
+	});
+
+	// Update status audio ke localStorage saat user toggle
+	function toggleMusic() {
+		toggleAudio();
+		const playing = get(isPlaying);
+		localStorage.setItem('musicPlaying', playing ? 'true' : 'false');
 	}
 </script>
 
@@ -33,6 +47,13 @@
 			<p class="text-white font-bold text-xl">MATERI</p>
 		</a>
 		<a
+			href="/quiz"
+			class="py-2 w-full col-span-2 flex items-center justify-center shadow-md bg-sky-500 rounded-3xl hover:opacity-80"
+		>
+			<img src="/images/quiz-icon.png" alt="demo" width="120" />
+			<p class="text-white font-bold text-xl">KUIS</p>
+		</a>
+		<a
 			href="/informasi"
 			class="py-2 w-full flex items-center justify-center shadow-md bg-blue-700 rounded-3xl hover:opacity-80"
 		>
@@ -46,12 +67,24 @@
 			<img src="/images/kredit-icon.png" alt="demo" width="120" />
 			<p class="text-white font-bold text-xl">KREDIT</p>
 		</a>
-		<button
-			on:click={closeApp}
-			class="h-20 w-full flex items-center justify-center shadow-md bg-[#D7513D] rounded-3xl col-span-2"
-		>
-			<p class="text-white font-bold text-3xl">EXIT</p>
-		</button>
+		<div class="flex col-span-2 gap-2">
+			<button
+				on:click={toggleMusic}
+				class=" w-20 h-20 text-white bg-yellow-400 rounded-3xl shadow-md flex items-center justify-center"
+			>
+				{#if $isPlaying}
+					<Volume2 size={48} />
+				{:else}
+					<VolumeX size={48} />
+				{/if}
+			</button>
+			<button
+				on:click={closeApp}
+				class="h-20 w-full flex items-center justify-center shadow-md bg-[#D7513D] rounded-3xl"
+			>
+				<p class="text-white font-bold text-3xl">EXIT</p>
+			</button>
+		</div>
 	</div>
 </main>
 

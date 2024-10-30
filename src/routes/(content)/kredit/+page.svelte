@@ -1,6 +1,6 @@
 <div class="container">
 	<div class="grid grid-cols-2 grid-rows-1 gap-2 items-center h-screen">
-		<div class="bg-gray-100 rounded-2xl p-4">
+		<div class="bg-gray-100 rounded-2xl p-4 text-right lg:text-left">
 			<h1 class="text-2xl font-bold text-center text-green-600 mb-6">Our Team</h1>
 			<p class="text-gray-700 mb-4">
 				mathAR Balance adalah hasil kolaborasi dari tim kreatif dan berdedikasi dalam tugas akhir

@@ -96,14 +96,6 @@
 		</div>
 	</SwiperSlide>
 	<SwiperSlide>
-		<div class="h-screen flex flex-col items-center justify-center">
-			<section class="menu-container p-20 rounded-xl flex items-center">
-				<img src="/images/hero-quiz.png" alt="quiz" width="250" />
-				<h1 class="text-center text-6xl font-bold">QUIZ</h1>
-			</section>
-		</div>
-	</SwiperSlide>
-	<SwiperSlide>
 		<div class="container">
 			<h1 class="text-center font-semibold text-4xl">SUKU - SUKU SEJENIS</h1>
 			<p class="text-lg text-[#193f63] text-center">
