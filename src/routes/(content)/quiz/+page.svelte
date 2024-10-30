@@ -1,8 +1,27 @@
+<script>
+	import Quiz from '$lib/components/Quiz.svelte';
+	let startQuiz = false;
+</script>
+
 <div class="h-screen flex flex-col items-center justify-center">
-	<section class="menu-container p-20 rounded-xl flex items-center">
-		<img src="/images/hero-quiz.png" alt="quiz" width="250" />
-		<h1 class="text-center text-6xl font-bold">QUIZ</h1>
-	</section>
+	{#if !startQuiz}
+		<!-- Tampilan Menu Awal -->
+		<section class="menu-container p-20 rounded-xl flex items-center space-x-8">
+			<img src="/images/hero-quiz.png" alt="quiz" width="250" />
+			<div class="text-center">
+				<h1 class="text-6xl font-bold mb-6">QUIZ</h1>
+				<button
+					class="bg-blue-500 hover:bg-blue-600 text-white py-3 px-6 rounded text-xl"
+					on:click={() => (startQuiz = true)}
+				>
+					Mulai
+				</button>
+			</div>
+		</section>
+	{:else}
+		<!-- Tampilkan Quiz -->
+		<Quiz />
+	{/if}
 </div>
 
 <style>

@@ -70,7 +70,7 @@
 		<div class="flex col-span-2 gap-2">
 			<button
 				on:click={toggleMusic}
-				class=" w-20 h-20 text-white bg-yellow-400 rounded-3xl shadow-md flex items-center justify-center"
+				class=" w-20 h-20 text-white bg-yellow-400 hover:bg-yellow-500 rounded-3xl shadow-md flex items-center justify-center"
 			>
 				{#if $isPlaying}
 					<Volume2 size={48} />
@@ -80,7 +80,7 @@
 			</button>
 			<button
 				on:click={closeApp}
-				class="h-20 w-full flex items-center justify-center shadow-md bg-[#D7513D] rounded-3xl"
+				class="h-20 w-full flex items-center justify-center shadow-md bg-[#D7513D] rounded-3xl hover:opacity-80"
 			>
 				<p class="text-white font-bold text-3xl">EXIT</p>
 			</button>
