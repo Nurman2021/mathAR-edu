@@ -24,6 +24,7 @@
 	},
 	"dependencies": {
 		"lucide-svelte": "^0.454.0",
-		"swiper": "^8.4.6"
+		"swiper": "^8.4.6",
+		"three": "^0.169.0"
 	}
 }
